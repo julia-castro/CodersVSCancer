@@ -17,8 +17,7 @@ ActiveRecord::Schema.define(version: 20150912033731) do
   enable_extension "plpgsql"
 
   create_table "demographics", force: :cascade do |t|
-    t.string   "gender",     null: false
-    t.string   "age_range",  null: false
+    t.string   "name",       null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
