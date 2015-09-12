@@ -9,4 +9,4 @@ class User < ActiveRecord::Base
 end
 
 
-has_many :patients, through: :appointments
+
