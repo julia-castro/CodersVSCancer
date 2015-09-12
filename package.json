@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/julia-castro/CodersVSCancer/issues"
   },
-  "homepage": "https://github.com/julia-castro/CodersVSCancer"
+  "homepage": "https://github.com/julia-castro/CodersVSCancer",
+  "dependencies": {
+    "react-router": "^1.0.0-rc1",
+    "browserify": "^10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "reactify": "^1.1.1",
+    "react": "^0.13.3"
+  }
 }
